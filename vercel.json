@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "buildCommand": "composer install --no-dev --optimize-autoloader",
+  "outputDirectory": ".",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1.php"
+    },
+    {
+      "src": "/(.*\\.(css|js|jpg|jpeg|png|gif|svg|ico|woff|woff2|ttf|eot))",
+      "dest": "/CTFd/themes/core/static$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/index.php"
+    }
+  ],
+  "env": {
+    "PHP_VERSION": "8.2"
+  }
+}
+

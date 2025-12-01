@@ -1,0 +1,12 @@
+{
+  "name": "ctfd-vercel-php",
+  "version": "1.0.0",
+  "description": "CTFd deployment untuk Vercel dengan PHP",
+  "scripts": {
+    "build": "composer install --no-dev --optimize-autoloader"
+  },
+  "engines": {
+    "node": ">=18.x"
+  }
+}
+

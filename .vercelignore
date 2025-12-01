@@ -1,0 +1,61 @@
+# Python files (tidak diperlukan untuk PHP)
+*.py
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# CTFd specific
+CTFd/logs/
+CTFd/uploads/
+*.db
+*.sqlite
+*.sqlite3
+
+# Development files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Node modules (jika ada)
+node_modules/
+
+# Tests
+tests/
+*.test.py
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Documentation
+*.md
+!README.md
+
+# Config files (akan dihandle oleh environment variables)
+CTFd/config.ini
+
